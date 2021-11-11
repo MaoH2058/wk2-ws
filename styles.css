@@ -3,16 +3,16 @@ body{
 }
 
 p {
-    font-family: monospace;
-    text-align: center;
+    /* font-family: monospace;
+    text-align: center; */
     color: lightpink;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: lightyellow;
     font-style: italic;
-    text-align: right;
+    /* text-align: right; */
 }
 
 h1 {
@@ -32,4 +32,42 @@ h2{
     font-size: 40px;
     text-align: left;
 
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fave{
+    color:orangered;
+}
+
+.pizza{
+
+    width:50%;
+
+}
+
+a {
+    color: white;
+}
+
+/* Cake pages */
+
+.cake-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
